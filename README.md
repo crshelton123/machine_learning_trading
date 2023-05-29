@@ -1,7 +1,7 @@
 # Machine Learning Trading Bot
 ---
 ## Part 1 Initializing Baseline Bot
-For this project I was able to use Supoort Vector Machine (SVM) and Logistic Regression (LR) models to train my machine learning bot on Simple Moving Average (SMA) of closing price data. Here are my initial results.
+For this project I was able to use Support Vector Machine (SVM) and Logistic Regression (LR) models to train my machine learning bot on Simple Moving Average (SMA) of closing price data. Here are my initial results.
 * This plot shows the actual returns compared to the baseline machine learning model, Support Vector Machine. The SMA short window was defaulted to 4 days, with a long window of 100 days. The training period was initally set to 3 months. As you can see, this is not a desirabe result, with strategy returns being well below actual returns. 
 ![Baseline SVM Plot](Plots/baseline_svm_plot.png)
 * Out of curiousity I ran the logisitic regression model on this baseline bot aswell, and while this model did seem to perform a little better, I don't like how it seems to be trending down toward the end of the testing data timeframe, while the actual returns are trending up. It does not look good for the future. 
